@@ -1,6 +1,7 @@
 ### Class Func Style
 ---
 > child of classnames library https://github.com/JedWatson/classnames by JedWatson
+
 utility for classNames and functional/utility css styling
 
 npm
