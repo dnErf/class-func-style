@@ -16,8 +16,10 @@ yarn add class-func-style
 ```
 
 ### Difference with classnames library
-> This library can be invoke with a list of style first. 
+> This library can be invoke with a list of style first.
+
 > Negative numbers and White Spaces are falsy value.
+
 > This library returns an object.
 
 ### Output
