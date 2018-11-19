@@ -1,5 +1,5 @@
 ### Class Func Style
----
+
 > child of classnames library https://github.com/JedWatson/classnames by JedWatson
 
 utility for classNames and functional/utility css styling
@@ -15,7 +15,7 @@ yarn add class-func-style
 ```
 
 #### Output
----
+
 This function always return `className: 'strings of style'` when invoke with a truthy argument.
 
 #### To Use
