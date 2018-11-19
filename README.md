@@ -1,8 +1,9 @@
-### Class Func Style
-
+Class Func Style
+=================
 > child of classnames library https://github.com/JedWatson/classnames by JedWatson
 
 utility for classNames and functional/utility css styling
+
 
 npm
 ```sh
@@ -14,11 +15,11 @@ yarn
 yarn add class-func-style
 ```
 
-#### Output
+### Output
 
 This function always return `className: 'strings of style'` when invoke with a truthy argument.
 
-#### To Use
+### To Use
 ```js
 let listOfFuncCSS = classFuncStyle({
   'HeaderBackground':'bg-black'
@@ -35,7 +36,7 @@ let funcStyle = classFuncStyle()
 funcStyle('btn',{'btn-error':false}) // -> {className:'btn'}
 ```
 
-#### Motivation in writing
+### Motivation in writing
 Finding better workflow in using a functional/utility style of css writing.
 
 ---
