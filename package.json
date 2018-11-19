@@ -1,0 +1,21 @@
+{
+  "name": "class-func-style",
+  "version": "1.0.0",
+  "description": "utility for classNames and functional css styling",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx ospec"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "class",
+    "classname",
+    "utility"
+  ],
+  "author": "Fren",
+  "license": "MIT",
+  "devDependencies": {
+    "ospec": "^3.0.1"
+  }
+}
