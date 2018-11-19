@@ -1,6 +1,6 @@
 Class Func Style
 =================
-> child of classnames library https://github.com/JedWatson/classnames by JedWatson
+> child of classnames library (https://github.com/JedWatson/classnames) by JedWatson
 
 utility for classNames and functional/utility css styling
 
@@ -16,11 +16,9 @@ yarn add class-func-style
 ```
 
 ### Difference with classnames library
-> This library can be invoke with a list of style first.
-
-> Negative numbers and White Spaces are falsy value.
-
-> This library returns an object.
+> * This library can be invoke with a list of style first.
+> * Negative numbers and White Spaces are falsy value.
+> * This library returns an object.
 
 ### Output
 
@@ -54,3 +52,4 @@ funcStyle('btn',{'btn-error':false}) // -> {className:'btn'}
 Finding better workflow in using a functional/utility style of css writing.
 
 ---
+[MIT](LICENSE)
