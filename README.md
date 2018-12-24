@@ -2,8 +2,12 @@ Class Func Style
 =================
 > child of classnames library (https://github.com/JedWatson/classnames) by JedWatson
 
-utility for classNames and functional/utility css styling
+utility for classNames and functional css styling
 
+unpkg
+```sh
+<script src="https://unpkg.com/class-func-style@1.0.0/index.js"></script>
+```
 
 npm
 ```sh
@@ -26,26 +30,36 @@ This function always return `className: 'strings of style'` when invoke with a t
 
 ### To Use
 ```js
-let listOfFuncCSS = classFuncStyle({
+let classNames = classFuncStyle({
   'HeaderBackground':'bg-black'
 })
 
-listOfFuncCSS('HeaderBackground') // -> {className:'bg-black'}
-listOfFuncCSS({
+classNames('HeaderBackground') // -> {className:'bg-black'}
+classNames({
   'HeaderBackground':true  // -> {className:'bg-black'}
 })
-listOfFuncCSS(['HeaderBackground']) // -> {className:'bg-black'}
+classNames(['HeaderBackground']) // -> {className:'bg-black'}
 
 // it also accepts non-declared value as long as it was invoke first
-let funcStyle = classFuncStyle()
+let funcStyle = classFuncStyle({})
 funcStyle('btn',{'btn-error':false}) // -> {className:'btn'}
 ```
 
 #### on React JS
 ```js
-<button {...funcStyle({'btn-error':false})}>
+<button {...fc({'btn-error':false})}>
   Hello
 <button>
+```
+
+#### on Mithril JS
+```js
+m('button'
+  ,{
+    ...fc({'btn-error':true})
+  }
+  ,['Hello']
+)
 ```
 
 ### Motivation in writing
